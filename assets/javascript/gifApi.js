@@ -89,6 +89,7 @@ $("#addTopic").on("click", function(event) {
 });
 
 function displayTopicsInfo() {
+  debugger;
   $("#topics").empty();
   var topic = $(this).attr("data-topic");
   var jQueryURL = "https://api.giphy.com/v1/gifs/search?api_key=iO5N75fDUiVZECR8MVZb87FYqDKdPzxF&q=" + topic + "&limit=10&offset=0&lang=en";

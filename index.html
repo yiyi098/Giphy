@@ -10,17 +10,37 @@
 
 <body>
   
+  <div class="jumbotron">
+    <h1 class="display-4">Search Your Gifs!</h1>
+    <p class="lead">Use this searcher to bring up 10 gifs of your choices</p>
+    <p class="lead">1. Simply type in your choices in the box below and press the Submit Button to show your choices</p>
+    <p class="lead">2. Then click on the newly generated Topic Buttons to see your gifs!</p>
+  </div>
   
+  <div class="card col-md-8 mx-auto">
+    <div class="card-body">
+       <form class="col-md-4 mx-auto" id="topics-form">
+        <div class="form-group">
+          <input type="text" class="form-control" id="topics-input">
+          <br>
+          <input id="addTopic" type="submit" value="Submit">
+          <br>
+          <hr class="my-4">
+        </div>
+      </form>
+    </div>
+  </div>
+  
+  <div class="card col-md-8 mx-auto">
+    <div class="card-body">
+      <div id="topicsButton"></div>
+      <div id="topics"></div>
+    </div>
+  </div>
+ 
 
-  <form id="topics-form">
-    <label for="topics-input">Add a Topic to Search!</label>
-    <input type="text" id="topics-input">
-    <br>
-    <input id="addTopic" type="submit" value="Submit">
-  </form>
 
-  <div id="topicsButton"></div>
-  <div id="topics"></div>
+  
 
   
 
