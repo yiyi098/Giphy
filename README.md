@@ -1,4 +1,4 @@
-# GifTastic-API
+# Giphy
 
  ### Overview
 
